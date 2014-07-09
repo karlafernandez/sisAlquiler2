@@ -4,7 +4,6 @@
     Author     : Meli
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html>
 
@@ -45,12 +44,7 @@
                         <div class="span12">
                             <div>
                                 <h4> Cuarto </h4>
-                    <h2>Detalle Habitación</h2>
-                    <hr>
-                    <div class="row-fluid">
-                        <div class="span12">
-                            <div>
-                                <h1> Cuarto </h1>
+
                             </div>
 
                         </div>
@@ -76,9 +70,6 @@
                         </div>
                     </div>
                     <!-- Portfolio Modals -->
-                        </div>
-                    </div>
-                    <!-- Portfolio Modals -->
 
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
                     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -97,16 +88,11 @@
                         <!--<input id="btnGuardar" type="submit" class="btn btn-info fa-input" name="guardar" value="Alquilar"> &nbsp;-->                                                                                                               
                          <a class="btn btn-info fa-input right" href="alquilado.jsp">Alquilar</a>
                         <a class="btn btn-info fa-input right" href="listahabitaciones.jsp">Regresar a lista</a>   
+
                     </div>
                 </div> 
             </div>
         </div>
-                        <a class="btn btn-info fa-input right" href="listahabitaciones.jsp">Regresar a lista</a>  
-                    </div>
-                </div> 
-            </div>
-
-        </div> 
     </div>
     <!--</div>-->
     <!--</fieldset>--> 

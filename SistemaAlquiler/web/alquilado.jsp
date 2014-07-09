@@ -43,10 +43,11 @@
                        
                     </fieldset>
 
+
                     <fieldset>
                         
                         <legend></legend>    
- <legend><h4>Sus datos han sido enviados al correo del arrendatario</h4></legend>
+ <legend><h5>Sus datos han sido enviados al correo del arrendatario</h5></legend>
                        
                         <div class="row-fluid "> 
                             <div class="span12 form-actions">
@@ -64,6 +65,8 @@
 
             </div>
         </div>
+
+
 
     </body>
     <footer class="text-center">

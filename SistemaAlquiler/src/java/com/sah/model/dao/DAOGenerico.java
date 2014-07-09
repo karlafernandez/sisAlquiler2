@@ -52,6 +52,7 @@ public abstract class DAOGenerico {
         }finally{
             end();
         }
+
     }
     
     public boolean update(Object object){
@@ -68,6 +69,7 @@ public abstract class DAOGenerico {
         }finally{
             end();
         }
+
     }
     public boolean delete(Object object){
         try {
@@ -83,7 +85,18 @@ public abstract class DAOGenerico {
         }finally{
             end();
         }
+
     }
+    
+
+    
+    
     public abstract Object convertPojo_DTO(Object object);
     public abstract Object convertDTO_Pojo(Object object);
+    
+
+
+
+
+
 }

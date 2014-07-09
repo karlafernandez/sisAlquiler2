@@ -72,5 +72,6 @@ public class ListaHabitacionesServlet extends HttpServlet {
             req.setAttribute("msg", "error en resgistro");
             resp.sendRedirect("listahabitaciones.jsp");
         }
+
     }
 }

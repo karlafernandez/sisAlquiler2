@@ -7,6 +7,7 @@
 
 
 <!DOCTYPE html>
+
 <html lang="en"
       xmlns="http://www.w3.org/1999/xhtml"     
       xmlns:h="http://java.sun.com/jsf/html"
@@ -100,7 +101,6 @@
                                     <div class="controls">
                                         <!--<input id="restricciones" name="restricciones" class="input-xlarge"  type="text"  />-->
                                         <h:inputText id="inputText" size="20" maxlength="30" />
-                                        <input id="restricciones" name="restricciones" class="input-xlarge"  type="text"  />
                                         <!--<form:errors path="detalle" cssClass="help-block"/>-->    
                                     </div>
                                 </div> 

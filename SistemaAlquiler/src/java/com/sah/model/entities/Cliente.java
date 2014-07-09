@@ -33,7 +33,6 @@ public class Cliente  implements java.io.Serializable {
         this.correo = correo;
         this.telefono = telefono;
     }
-
     public Cliente(int idcliente, String nombre, String apellido, String ocupacion, String correo, String telefono, String dni, Set reservas,Date fechaNac) {
        this.idcliente = idcliente;
        this.nombre = nombre;
@@ -110,6 +109,10 @@ public class Cliente  implements java.io.Serializable {
     public void setFechaNac(Date fechaNac) {
         this.fechaNac = fechaNac;
     }
+
+
+
+
 }
 
 

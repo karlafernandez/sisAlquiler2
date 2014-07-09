@@ -7,7 +7,6 @@
 <%@page import="java.util.List"%>
 <%@page import="com.sah.model.dao.HabitacionDAOHibernate"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html>
 
@@ -37,7 +36,6 @@
             <div class="row-fluid">
                 <div class=" span2">
                 </div>
-
                     <% out.print(request.getAttribute("msg"));%>
                 </div>
                 <div class=" span10">

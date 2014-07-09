@@ -7,11 +7,14 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="f" uri="http://java.sun.com/jsf/core"%>
 <%@taglib prefix="h" uri="http://java.sun.com/jsf/html"%>
+<%@ taglib uri="http://struts.apache.org/tags-bean" prefix="bean" %>  
+<%@ taglib uri="http://struts.apache.org/tags-html" prefix="html" %>  
+<%@ taglib uri="http://struts.apache.org/tags-logic" prefix="logic" %>
 <!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-
+        
         <!-- Optional theme -->
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 
@@ -68,11 +71,16 @@
                                 
                             <tr>
                             <form action="listahabitaciones.jsp" method="get">
-                                <label>Ususario</label>
+                                <html:form method="post" action="">
+                                    <html:text name="usuario" property=""></html:text>
+                                    <html:text name="pass" maxlength="8" property =""></html:text>
+                                    <html:submit title="Login"></html:submit>
+                                </html:form>
+<!--                                <label>Ususario</label>
                                 <input type="text" id="user" name="user"/>
                                 <label>Password</label>
                                 <input type="text" id="pass" name="pass"/>
-                                <input type="submit" value="enviar"/>
+                                <input type="submit" value="enviar"/>-->
                             </form>
 
                         </li>

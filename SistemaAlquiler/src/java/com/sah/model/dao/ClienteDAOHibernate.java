@@ -42,8 +42,4 @@ public class ClienteDAOHibernate extends DAOGenerico{
         cliente.setCorreo(clienteDTO.getCorreo());
         return cliente;
     } 
-
-    public boolean insert(ClienteDTO clienteDTO) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-}

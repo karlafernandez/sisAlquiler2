@@ -60,7 +60,7 @@ public class ClienteDTO {
     public void setCorreo(String correo) {
         this.correo = correo;
     }
-
+    
     public String getTelefono() {
         return telefono;
     }

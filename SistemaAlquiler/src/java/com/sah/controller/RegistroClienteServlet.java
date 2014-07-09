@@ -37,7 +37,6 @@ public class RegistroClienteServlet extends HttpServlet {
             String correo = (String) req.getParameter("correo");
             String telefono = (String) req.getParameter("telefono");
             String dni = (String) req.getParameter("dni");
-            
             ClienteBO clienteBO = new ClienteBO();
             ClienteDTO clienteDTO = new ClienteDTO();
             clienteDTO.setNombre(nombre);
@@ -47,7 +46,6 @@ public class RegistroClienteServlet extends HttpServlet {
             clienteDTO.setTelefono(telefono);
             clienteDTO.setDni(dni);
             clienteBO.insertCliente(clienteDTO);
-            clienteDTO.setCorreo(correo);
             clienteDTO.setCorreo(correo);
             clienteBO.insertHabitacion(clienteDTO);
             req.setAttribute("msg", "registro exitoso");
@@ -70,17 +68,15 @@ public class RegistroClienteServlet extends HttpServlet {
             String correo = (String) req.getParameter("correo");
             String telefono = (String) req.getParameter("telefono");
             String dni = (String) req.getParameter("dni");
-        
+
             ClienteBO clienteBO = new ClienteBO();
             ClienteDTO clienteDTO = new ClienteDTO();
             clienteDTO.setNombre(nombre);
             clienteDTO.setApellido(apellido);
-
             clienteDTO.setOcupacion(ocupacion);
             clienteDTO.setCorreo(correo);
             clienteDTO.setTelefono(telefono);
             clienteDTO.setDni(dni);
-
             clienteDTO.setCorreo(correo);
 
             clienteBO.insertHabitacion(clienteDTO);

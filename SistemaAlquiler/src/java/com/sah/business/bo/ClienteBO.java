@@ -10,6 +10,7 @@ import com.sah.model.dao.ClienteDAOHibernate;
 /**
  *
  * @author Karla
+
  */
 public class ClienteBO {
     private ClienteDAOHibernate clienteDAOHibernate=new ClienteDAOHibernate();
