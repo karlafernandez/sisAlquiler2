@@ -8,11 +8,10 @@ x|<?xml version="1.0" encoding="UTF-8" ?>
 <struts-config>
     <form-beans>
         <form-bean name="login" type="Controlador.Form.login"/>
-    
+        <form-bean name="login" type="Controlador.Form.login"/>
     </form-beans>
     
     <global-exceptions>
-    
     </global-exceptions>
 
     <global-forwards>
@@ -24,7 +23,6 @@ x|<?xml version="1.0" encoding="UTF-8" ?>
     </action-mappings>
     
     <controller processorClass="org.apache.struts.tiles.TilesRequestProcessor"/>
-
     <message-resources parameter="com/myapp/struts/ApplicationResource"/>    
     
     <!-- ========================= Tiles plugin ===============================-->

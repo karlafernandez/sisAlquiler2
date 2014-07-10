@@ -36,12 +36,11 @@ public class login extends org.apache.struts.action.ActionForm {
     public void setUsuario(String usuario) {
         this.usuario = usuario;
     }
-
-
-    public login() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
+//
+//    public login() {
+//        super();
+//        // TODO Auto-generated constructor stub
+//    }
 
     /**
      * This is the action called from the Struts framework.
@@ -58,8 +57,9 @@ public class login extends org.apache.struts.action.ActionForm {
         else
         {
             if(pass.length()<=0)
-                errors
+                errors.add("pass", new ActionMessage("errors.clave"));
+        }
+        mapping.getInputForward();
         return errors;
         }
-    }
 }

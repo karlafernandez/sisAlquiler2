@@ -34,14 +34,12 @@
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     </head>
-    
-    
-    
+
     <body>
         
                 <nav class="navbar navbar-default navbar-fixed-top">
     </head>
-    <body>  
+    <body>
    
    <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -70,18 +68,23 @@
                             <!--<form action="views/listahabitaciones.jsp" method="get">-->
                                 
                             <tr>
-                            <form action="listahabitaciones.jsp" method="get">
-                                <html:form method="post" action="">
-                                    <html:text name="usuario" property=""></html:text>
-                                    <html:text name="pass" maxlength="8" property =""></html:text>
-                                    <html:submit title="Login"></html:submit>
+                            <!--<form action="listahabitaciones.jsp" method="get">-->
+                                <html:form action="login">
+                                <form name="logueo" action="login">
+                                    Usuario:<html:text property="Usuario"></html:text><br />
+                                <html:errors property="usu"/><br />
+                                    Clave:<html:text property="pwd"></html:text><br/>
+                                <html:errors property="pwd"/><br />
+                                <html:errors property="no_existe"/><br />
+                                <html:submit value="confirmar"></html:submit>
+                                </form>
                                 </html:form>
 <!--                                <label>Ususario</label>
                                 <input type="text" id="user" name="user"/>
                                 <label>Password</label>
                                 <input type="text" id="pass" name="pass"/>
                                 <input type="submit" value="enviar"/>-->
-                            </form>
+                            <!--</form>-->
 
                         </li>
                     </ul>
